@@ -1,0 +1,34 @@
+Hello Tech#Projects follower
+** Arduino interfaced with 4x4 Keypad, 16x2 LCD & Arduino Mega **
+
+#Connections of the Arduino Mega to LCD:
+Arduino Mega			LCD
+pin-A0				RS
+pin-A1				E
+pin-A2				D4
+pin-A3				D5
+pin-A4				D6
+pin-A5				D7
+5V				A/no for simulation
+				VDD
+				Pot
+GND				K/no for simulation
+				VSS
+				RW
+				Pot &
+				D0-D3
+#And other connection:
+Pot-middle pin to Vo/VEE of the LCD
+
+
+#Connections of the Arduino UNO to 4x4 Keypad:
+Arduino Mega			Keypad
+pin-2				Row-1
+pin-3				Row-2
+pin-4				Row-3
+pin-5				Row-4
+pin-6				Col-1
+pin-7				Col-2
+pin-8				Col-3
+pin-9				Col-4
+				
